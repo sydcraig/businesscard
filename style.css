@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+
+body {
+    background-image: url("assets/1x/Artboard\ 2.png");
+    font-family: 'Libre Baskerville', serif;
+}
+/* the main container */
+
+.card{
+ width: 300px;
+ height: 500px; 
+  margin: 3em auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+.front-card{
+
+  background-image: url('assets/1x/Artboard\ 3.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ 
+.back-card {
+  background-image: url('assets/1x/Artboard\ 4.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+
+}
+h1{
+  font-size: 2em;
+  margin-top: 45%;
+  margin-left:-15%;
+  text-align: center;
+  color:rgb(0, 0, 0);
+
+  font-family: 'Libre Baskerville', serif;
+}
+
+h3{
+  font-size: 1em;
+  font-family: 'Libre Baskerville', serif;
+  
+}
+
+h5{
+  font-size: .6em;
+  font-family: 'Libre Baskerville', serif;
+  
+}
+
+.icon-container{
+  width:85%;
+  margin-top:-24%;
+  margin-left:7%;
+  column-gap:47px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.header-container{
+  margin-left:33%;
+  margin-top:40%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.subheader-container{
+  margin-top:28%;
+  margin-left:10%;
+  gap: 50px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bottom-container{
+  margin-top:8%;
+  margin-left:5%;
+  display:grid;
+  gap: 6%;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.bottom2-container{
+  margin-left:26%;
+  margin-top:20%;
+
+}
+svg{
+  fill:rgb(2, 2, 2);
+  padding:5px;
+}
+
+svg:hover{
+  fill:rgb(41, 107, 32);
+  animation: tada;
+  animation-duration: 2s; 
+}
